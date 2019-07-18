@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362735335173",
+    "firebase_url": "https://iooc-cb7d4.firebaseio.com",
+    "project_id": "iooc-cb7d4",
+    "storage_bucket": "iooc-cb7d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362735335173:android:cb074ded8a41e5ff",
+        "android_client_info": {
+          "package_name": "com.ioocllcdrdapp.iooc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362735335173-1eqd9j8inneckvc1rm5mj64ji8v5hcm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ioocllcdrdapp.iooc",
+            "certificate_hash": "13c40d3d97c67b7e7263bfe1f38a8b2a277905a9"
+          }
+        },
+        {
+          "client_id": "362735335173-tb31u3c2bsurocnqvjnsutj6fltap2dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAafVF8At8jYNcFzyhVs1wjdGwnIcokoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362735335173-tb31u3c2bsurocnqvjnsutj6fltap2dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

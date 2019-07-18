@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CertificateActivity">
+
+    <!--<android.support.constraint.ConstraintLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<android.support.constraint.Guideline-->
+            <!--android:id="@+id/guideline_start"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--app:layout_constraintGuide_begin="16dp" />-->
+
+        <!--<android.support.constraint.Guideline-->
+            <!--android:id="@+id/guideline_end"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--app:layout_constraintGuide_end="16dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/certificate_verified_text"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:fontFamily="@font/gotham_rounded_medium"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/verified_certificate_of_completion"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textSize="16dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/certificate_iooc_text"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="48dp"-->
+            <!--android:fontFamily="@font/gotham_rounded_medium"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/iooc"-->
+            <!--android:textColor="@color/colorPrimaryMoreDark"-->
+            <!--android:textSize="80dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/certificate_verified_text" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/certificate_info_text"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="48dp"-->
+            <!--android:fontFamily="@font/gotham_rounded_medium"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/certificate_info"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/certificate_iooc_text" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/certificate_student_name_text"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:fontFamily="@font/gotham_rounded_medium"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Mohamed Elbana"-->
+            <!--android:textColor="@color/colorPrimaryMoreDark"-->
+            <!--android:textSize="32dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/certificate_info_text" />-->
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/certificate_linear_layout"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/certificate_student_name_text">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="32dp"-->
+                <!--android:fontFamily="@font/gotham_rounded_medium"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Has successfully completed the "-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/certificate_course_name_text"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:fontFamily="@font/gotham_rounded_medium"-->
+                <!--android:gravity="center"-->
+                <!--android:text="NodeJs Course"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:textSize="24dp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/certificate_date_text"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:fontFamily="@font/gotham_rounded_medium"-->
+            <!--android:gravity="center"-->
+            <!--android:text="from 1-7-2018 to 1-9-2018"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textSize="16dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@+id/guideline_end"-->
+            <!--app:layout_constraintStart_toStartOf="@+id/guideline_start"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/certificate_linear_layout" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/certificate_save_pdf_btn"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:background="@drawable/back_solid_accent"-->
+            <!--android:fontFamily="@font/gotham_rounded_book"-->
+            <!--android:text="@string/save_as_pdf"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--app:layout_constraintEnd_toStartOf="@id/guideline_end"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/certificate_date_text" />-->
+
+
+    <!--</android.support.constraint.ConstraintLayout>-->
+</ScrollView>
